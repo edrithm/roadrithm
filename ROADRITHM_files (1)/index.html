@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>ROADRITHM</title>
+
+    <style>
+      body {
+        background-image: url("images/background.jpg");
+        background-size: cover;
+      }
+
+      strong {
+        color: rgb(122, 23, 31);
+        font-style: oblique;
+        font-size: x-large;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        transition: background-color 2s, color 2s;
+        box-shadow: 10px 10px 10px rgb(122, 23, 31);
+      }
+      strong:hover {
+        background-color: lightsalmon;
+        border-radius: 2px;
+      }
+      img {
+        margin-top: 25px;
+
+        width: 200px;
+        border-radius: 60px;
+        float: left;
+        margin-right: 50px;
+        margin-left: 75px;
+        box-shadow: 10px 10px 10px black;
+      }
+      img {
+        width: 200px;
+      }
+
+      img:hover {
+        /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: vibrate 0.5s;
+
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes vibrate {
+        0% {
+          transform: rotate(0deg);
+        }
+        10% {
+          transform: rotate(-1deg);
+        }
+        20% {
+          transform: rotate(1deg);
+        }
+        30% {
+          transform: rotate(0deg);
+        }
+        40% {
+          transform: rotate(1deg);
+        }
+        50% {
+          transform: rotate(-1deg);
+        }
+        60% {
+          transform: rotate(0deg);
+        }
+        70% {
+          transform: rotate(-1deg);
+        }
+        80% {
+          transform: rotate(1deg);
+        }
+        90% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(-1deg);
+        }
+      }
+
+      .username {
+        font-weight: bold;
+        font-size: x-large;
+        color: rgb(122, 23, 31);
+      }
+      h1 {
+        background-color: rgb(187, 135, 118);
+        color: rgb(24, 20, 35);
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        border-end-end-radius: 450px;
+        margin-right: 38px;
+        margin-top: 70px;
+        margin-left: 40px;
+        margin-bottom: 60px;
+        border-start-start-radius: 80px;
+        opacity: 0.8;
+        box-shadow: 10px 10px 10px black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="section">
+      <div class="video-container">
+        <div class="color-overlay"></div>
+        <video autoplay="" loop="" muted="">
+          <source src="company/nyc.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    <style>
+      button {
+        background-color: rgb(122, 23, 31);
+        color: white;
+        border: none;
+        border-radius: 20px;
+        height: 40px;
+        width: 120px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 2s, color 2s;
+        box-shadow: 10px 10px 10px black;
+      }
+    </style>
+    <style>
+      .section {
+        position: relative;
+        width: 100%;
+
+        display: outside;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        box-shadow: 10px 10px 10px;
+        border-radius: 50px;
+      }
+
+      .section h1 {
+        text-align: center;
+        font-size: 6rem;
+        font-family: "Cookie";
+        padding: 20px;
+        margin: 15px;
+        z-index: 1;
+        opacity: 0.7;
+      }
+
+      .video-container {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+      .order_now-button:hover {
+        background-color: lightcoral;
+        opacity: 0.7;
+      }
+      .order_now-button:active {
+        background-color: black;
+        opacity: 0.6;
+      }
+      h4 {
+        margin-top: 160px;
+      }
+      h2 {
+        margin-top: 150px;
+        margin-left: 75;
+      }
+      .img_jumpstart {
+        margin-bottom: 60px;
+      }
+      .slogan {
+        margin-left: 120px;
+      }
+      .slogan2 {
+        margin-bottom: 40px;
+      }
+    </style>
+
+    <img
+      src="images/logo.jpg"
+      alt="an image of roadside assistance"
+    />
+
+    <p class="username">ROADRITHM ©</p>
+    <p class="slogan2">
+       Where help is just a tap away MY GUY! <br>  BK/QUEENS/MANHATTAN (EXPANDING SOON!)
+       
+    </p>
+    <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank"
+      ><button class="order_now-button">order now</button>
+    </a>
+
+    <h1><u>Roadside Assistance Services</u></h1>
+    <strong class="slogan">
+      LETS GET RIGHT TO IT Cashapp &amp; Venmo only</strong
+    >
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong> Jumpstart</strong>
+        <img
+          style="margin-top: 3px; border-radius: 70px; width: 200px"
+          class="jumpstart"
+          src="./ROADRITHM_files/jumpstart.jpg"
+          alt="boost"
+        />
+      </a>
+    </h2>
+    <p>Battery booster</p>
+    <h3>29.99</h3>
+
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong>Lock Out Service</strong>
+        <img
+          style="margin-top: 30px"
+          src="./ROADRITHM_files/lockout.jpg"
+          alt="lockout"
+        />
+      </a>
+    </h2>
+    <p>Special tooling utilization to access vehicle</p>
+    <h3>29.99</h3>
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong>Tire Services</strong>
+        <img src="./ROADRITHM_files/tireservice.jpg" alt="tireservice" />
+      </a>
+    </h2>
+    <p>Spare tire installment/ tire plug</p>
+    <h3>29.99</h3>
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong>Fuel Delivery</strong>
+        <img src="./ROADRITHM_files/fuel.jpg" alt="fuel" />
+      </a>
+    </h2>
+    <p>2 gal. of gasoline (fuel cost is not included, must pay for fuel)</p>
+    <h3>29.99</h3>
+
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong>Vehicle diagnostics</strong>
+        <img src="./ROADRITHM_files/diagnose.jpg" alt="computer" />
+      </a>
+    </h2>
+    <p>Run a special computer to diagnose car problems</p>
+    <h3>29.99</h3>
+
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong>Tow</strong>
+        <img src="./ROADRITHM_files/towing.jpg" alt="towing" />
+      </a>
+    </h2>
+    <p>Your car is delivered to the nearest service center</p>
+    <h3>199.99</h3>
+
+    
+
+    <h3>&nbsp; &nbsp;</h3>
+    <style>
+      H5 {
+        color: rgb(122, 23, 31);
+        text-align: center;
+        margin-top: 200px;
+        font-weight: bold;
+        font-size: large;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .about {
+        border-radius: 80px;
+
+        background-color: rgb(187, 135, 118);
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        color: rgb(122, 23, 31);
+        opacity: 0.8;
+        box-shadow: 10px 10px 10px black;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .rights {
+        color: rgb(122, 23, 31);
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    </style>
+    <h1><u>mechanical service solutions</u></h1>
+
+    <br />
+    <strong class="slogan">
+      SERVICE DELIVERED TO YOUR HOME/DRIVEWAY/GARAGE! <br
+    /></strong>
+    <h3>
+      <strong class="slogan">
+        Don't have the product or parts? no worries! <br />
+        <br />
+        <pre>
+        We'll get it for you! &amp; We provide the labor!<br/></pre>
+      </strong>
+    </h3>
+
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong>Antifreeze/coolant service</strong>
+        <img src="images/antifreeze.jpg" alt="antifreeze" />
+      </a>
+    </h2>
+    <p>Low on coolant? We take care of that! Inquire with us!</p>
+    <h3>29.99</h3>
+
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong>windshield washer service</strong>
+        <img src="images/washer.jpeg" alt="windshield" />
+      </a>
+    </h2>
+    <p>Low on windshield washer? we take care of that!</p>
+    <h3>19.99</h3>
+
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong>Brakes Installation</strong>
+        <img src="company/brakes.jpeg" alt="brake" />
+      </a>
+    </h2>
+    <p>Replace your brake pads and rotors to a new one!</p>
+    <h3>149.99</h3>
+
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong>Battery Installation</strong>
+        <img src="company/batteryinstall.webp" alt="battinstall" />
+      </a>
+    </h2>
+    <p>Replace your old battery to a new one!</p>
+    <h3>69.99</h3>
+
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong>Oil Change</strong>
+        <img src="ROADRITHM_files/oil.jpg" alt="oil" />
+      </a>
+    </h2>
+    <p>replace your filter and oil to new</p>
+    <h3>149.99</h3>
+
+    <h2>
+      <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+        <strong>Fuse service</strong>
+        <img src="images/fuse-test.jpg" alt="fuses" />
+      </a>
+    </h2>
+    <p>Blown fuses? we'll test and replace them!</p>
+    <h3>29.99</h3>
+
+    <h2>
+      <h2>
+        <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+          <strong>AC Recharge service</strong>
+          <img src="ROADRITHM_files/acrecharge.jpg" alt="recharge" />
+        </a>
+      </h2>
+      <p>Is your ac low? we'll recharge it!</p>
+      <h3>99.99</h3>
+  
+      <h2>
+        <h2>
+          <a href="http://127.0.0.1:5500/company/ordernow.html" target="_blank">
+            <strong>Product Delivery</strong>
+            <img src="images/delivery.jpg" alt="delivery" />
+          </a>
+        </h2>
+        <p>Need something from your local auto part store? Stay put! We'll get it for you!</p>
+        <h3>14.99</h3>
+    
+        <h2>
+
+
+
+    <h5>
+      <u><i>ABOUT ROADRITHM</i></u>
+    </h5>
+    <p class="about">
+      ROADRITHM is a roadside assistance service and mechanical company that
+      promptly provides professionalism <br />
+      and reliable service on the road at an affordable rate and in a timely
+      fashion.<br />
+      We know your mechanic, insurance company or your main provider can have
+      you on hold and <br />In the interim, you will need some paper work
+      cleared in order for you to be rescued.
+
+      <br />Here at ROADRITHM, we keep it convenient, simple, and we eliminate
+      all tedious intricacies. <br />It's like ordering food! <br />
+      We utilize the latest equipment and state-of-the-art tools for the job.<br />
+      We put ourselves in your shoes so we can fathom your situation and meet
+      your expectations!
+    </p>
+    <h5>
+      <u><i>Terms &amp; Conditions</i></u>
+    </h5>
+    <p class="about">
+      ROADRITHM is a company that follows protocol, rules, and regulations.
+      <br />
+      All clients must have or purchase their own parts, if not you must inquire
+      to make provider purchase it and all service providers must be equipped
+      with their own tools.<br />You must pay for each service and the service
+      provider is only allowed to perform what was paid for. <br />There are no
+      refunds, service provider still gets paid for the attempt even if
+      repairment is not successful due to underline issues, and especially if
+      funds are sent.<br />Once the funds are sent is an automatic agreement to
+      the terms and conditions. <br />
+      Here at ROADRITHM we make sure customers are fully satisfied and back on
+      the road in a timely fashion. <br />All of our service providers are well
+      experienced and hands on with the services provided. The client and the
+      service provider must take photo and provide information, once the service
+      is complete. Any damages is due to the vehicle owner's expense. Any medical emergency or any matters of apprehension must report to the police or a first responder.    </p>
+
+    <h4><masthead>CEO EDWIN AGUILAR</masthead></h4>
+    <h3><masthead>call (917)915-9843</masthead></h3>
+
+    <masthead style="font-size: large"
+      ><a href="mailto:edwinaguilar103@gmail.com">CAREERS</a></masthead
+    ><br />
+    <masthead style="font-size: large"
+      ><a href="mailto:edwinaguilar103@gmail.com">EMAIL ME</a></masthead
+    ><br />
+    <masthead><a href="mailto:edwinaguilar103@gmail.com">FAQS</a></masthead
+    ><br />
+    <a &#x0000a;="" &#10;="" href="http://127.0.0.1:5500/index.html"
+      >back to top</a
+    >
+
+    <h4 class="rights">all rights reserved ROADRITHM &copy</h4>
+  </body>
+</html>
